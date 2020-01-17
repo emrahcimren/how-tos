@@ -18,3 +18,14 @@ Upload to TestPyPI to make sure everything works as expected
 ```
 twine upload --repository-url https://test.pypi.org/legacy/ dist/*
 ```
+
+Install your package from test PyPi to see if it is working
+
+```
+pip install --index-url https://test.pypi.org/simple/ cimren-wkmeans-geo
+```
+
+Upload to PyPI
+```
+twine upload dist/*
+```
