@@ -3,7 +3,7 @@ How to Publish an Open-Source Python Package to PyPI
 ----------------------------------------------------
 0. Create a new test environment
 ```
-create --name test python=3.7
+conda create --name test python=3.7
 ```
 
 1. Install twine upload your package to PyPI
